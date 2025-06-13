@@ -1,0 +1,68 @@
+/* Fundo animado com gradiente suave */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: linear-gradient(-45deg, #f7b733, #fc4a1a, #4ab1ff, #28c76f);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Container central com sombra suave */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: #fff;
+}
+
+/* Timer central */
+.timer {
+  font-size: 5rem;
+  margin: 2rem 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Botões melhorados */
+.buttons button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#start {
+  background-color: #28c76f;
+}
+
+#pause {
+  background-color: #ff9f43;
+}
+
+#reset {
+  background-color: #ea5455;
+}
+
+.buttons button:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
