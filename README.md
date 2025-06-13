@@ -32,7 +32,7 @@ The app follows the Pomodoro method — helping users stay focused through 25-mi
 
 ## 🖼️ Preview
 
-![Pomodoro Screenshot](screenshot.png) <!-- Podes substituir por um link real ou remover esta secção -->
+![Pomodoro Screenshot](pomodoro.png) <!-- Podes substituir por um link real ou remover esta secção -->
 
 ---
 
