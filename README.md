@@ -1,15 +1,58 @@
-🕒 Pomodoro App
-This is a small Pomodoro application built with HTML, CSS, and JavaScript.
+# 🕒 Pomodoro App
 
-🔔 The Pomodoro technique is based on 25-minute focused work sessions followed by short breaks — a proven method to boost productivity.
+> A simple and elegant timer app based on the **Pomodoro Technique** — developed with HTML, CSS, and JavaScript.
 
-📘 About the Project
-This project was created as the final exercise for earning the certificate of completion for the
-"The Origins III: JavaScript!" course on the Codedex platform.
+---
 
-🚀 Features
-25-minute timer
+## 📘 Project Overview
 
-Start, Pause, and Reset buttons
+This project was built as the **final exercise** to obtain the certificate for  
+🎓 **"The Origins III: JavaScript!"** course on the [Codedex](https://www.codedex.io) platform.
 
-Simple and responsive layout
+The app follows the Pomodoro method — helping users stay focused through 25-minute work sessions, followed by short breaks.
+
+---
+
+## 🚀 Features
+
+✅ 25-minute countdown timer  
+⏸️ Pause and resume functionality  
+🔄 Reset button  
+🎨 Minimalist and responsive design
+
+---
+
+## 🧪 Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)
+
+---
+
+## 🖼️ Preview
+
+![Pomodoro Screenshot](screenshot.png) <!-- Podes substituir por um link real ou remover esta secção -->
+
+---
+
+## 📂 How to Use
+
+1. Clone or download this repository
+2. Open `index.html` in your browser
+3. Click **Start** to begin your Pomodoro session
+4. Use **Pause** or **Reset** as needed
+
+---
+
+## 📑 License
+
+This project is open-source and free to use for educational purposes.
+
+---
+
+## ✍️ Author
+
+Developed with 💻 by Filipe Campos  
+
+---
